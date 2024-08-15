@@ -1,6 +1,6 @@
 
 body .gform_wrapper {
- background-color: #008000;
+ 
 }
 
 
@@ -62,6 +62,14 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
 
 body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label .gfield_required {
 
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label .gfield_required .gfield_required_asterisk {
+ color: #ff0149;
+ font-size: 20px;
+ line-height: 28px;
+ display: inline-block;
+ padding-inline-start: .125em;
 }
 
 
