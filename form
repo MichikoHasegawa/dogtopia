@@ -81,7 +81,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield input {
  height: 50px;
  width: 250px;
  margin-bottom: 5px;
- margin-top: -8px;
+ margin-top: -11px;
  box-shadow: none;
  @media all and (min-width: 1200px) {
   height: 60px;
@@ -398,4 +398,22 @@ body .gform_wrapper .gform_body .gform_fields .gfield .ginput_list table.gfield_
 
 body .gform_wrapper .gform_body .gform_fields .gfield .ginput_list table.gfield_list tbody tr td.gfield_list_cell {
   
+}
+
+body .gform_wrapper .gform_footer .gform_button {
+ background-color: #ff8200;
+ font-family: brandon-text, Helvetica Neue, Arial, sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ border-radius: 50px;
+ padding: 15px;
+ width: 100%;
+ @media all and (min-width: 830px) {
+  font-size: 20px;
+  padding: 18px;
+ }
 }
