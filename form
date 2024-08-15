@@ -55,8 +55,9 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
  line-height: normal;
  letter-spacing: normal;
  text-align: left;
- top: -12px;
  padding: 0 5px;
+ position: sticky;
+ margin-left: 10px;
 }
 
 
@@ -80,6 +81,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield input {
  height: 50px;
  width: 250px;
  margin-bottom: 5px;
+ margin-top: -8px;
  box-shadow: none;
  @media all and (min-width: 1200px) {
   height: 60px;
