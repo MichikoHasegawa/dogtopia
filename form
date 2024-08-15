@@ -1,6 +1,6 @@
 
 body .gform_wrapper {
- background-color: #FFFF00;
+ background-color: red;
 }
 
 
