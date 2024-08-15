@@ -45,7 +45,18 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_description {
 
 
 body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
-
+ color: #4d4d4f;
+ background: #f9fafa;
+ font-family: brandon-text, Helvetica Neue, Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: left;
+ top: -12px;
+ padding: 0 5px;
 }
 
 
