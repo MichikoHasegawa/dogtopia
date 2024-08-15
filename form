@@ -135,6 +135,8 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label .gfield_requ
 
 body .gform_wrapper .gform_body .gform_fields .gfield input {
  background-color: #e5e5e5;
+ color: #4d4d4f;
+font-size: 16px;
  border-radius: 5px;
  border: 1px solid #c3c3c3;
  height: 50px;
@@ -144,6 +146,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield input {
  box-shadow: none;
  padding-left: 20px;
  @media all and (min-width: 830px) {
+  font-size: 20px;
   height: 60px;
   width: 450px;
  }
