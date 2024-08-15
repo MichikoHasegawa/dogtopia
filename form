@@ -73,16 +73,22 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label .gfield_requ
 }
 
 
-body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+body .gform_wrapper .gform_body .gform_fields .gfield input {
  background-color: #e5e5e5;
  border-radius: 5px;
  border: 1px solid #c3c3c3;
  height: 50px;
+ width: 250px;
  margin-bottom: 5px;
  box-shadow: none;
  @media all and (min-width: 1200px) {
   height: 60px;
+  width: 450px;
  }
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+
 }
 
 
