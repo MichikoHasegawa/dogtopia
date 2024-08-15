@@ -412,16 +412,23 @@ body .gform_wrapper .gform_footer .gform_button {
  letter-spacing: normal;
  border-radius: 50px;
  padding: 15px;
- width: 100%;
+ width: 250px;
  border: none;
  @media all and (min-width: 830px) {
   font-size: 20px;
   padding: 18px;
+  width: 450px;
  }
- &:active,
- &:focus,
- &:hover {
-  box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .25);
 }
 
+body .gform_wrapper .gform_footer .gform_button:hover {
+ box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .25);
+}
+
+body .gform_wrapper .gform_footer .gform_button:focus {
+ box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .25);
+}
+
+body .gform_wrapper .gform_footer .gform_button:active {
+ box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .25);
 }
