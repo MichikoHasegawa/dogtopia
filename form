@@ -23,6 +23,37 @@ body .gform_wrapper .gform_body {
 
 }
 
+body .gform_wrapper .gform_body .top_label h2 {
+ color: #424a51;
+ font-family: brandon-text, Helvetica Neue, Arial, sans-serif;
+ font-size: 34px;
+ font-weight: 300;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.18;
+ letter-spacing: normal;
+ text-align: center;
+ margin-bottom: 14px;
+ @media all and (min-width: 830px) {
+  font-size: 43px;
+  max-width: 320px;
+  margin: auto;
+ }
+}
+
+body .gform_wrapper .gform_body .top_label p {
+ color: #424a51 !important;
+ font-family: brandon-text, Helvetica Neue, Arial, sans-serif !important;
+ font-size: 18px !important;
+ line-height: 1.22 !important;
+ letter-spacing: normal !important;
+ text-align: center;
+ @media all and (min-width: 830px) {
+  font-size: 43px;
+  max-width: 320px;
+  margin: auto;
+ }
+}
 
 body .gform_wrapper .gform_body .gform_fields {
 
