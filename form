@@ -37,7 +37,7 @@ body .gform_wrapper .gform_body .top_label h2 {
  @media all and (min-width: 830px) {
   font-size: 43px;
   max-width: 320px;
-  margin: auto;
+  margin: unset;
  }
 }
 
@@ -51,7 +51,7 @@ body .gform_wrapper .gform_body .top_label p {
  @media all and (min-width: 830px) {
   font-size: 43px;
   max-width: 320px;
-  margin: auto;
+  margin: unset;
  }
 }
 
@@ -114,7 +114,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield input {
  margin-bottom: 5px;
  margin-top: -11px;
  box-shadow: none;
- @media all and (min-width: 1200px) {
+ @media all and (min-width: 830px) {
   height: 60px;
   width: 450px;
  }
