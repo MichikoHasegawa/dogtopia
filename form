@@ -402,6 +402,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield .ginput_list table.gfield_
 
 body .gform_wrapper .gform_footer .gform_button {
  background-color: #ff8200;
+ color: #fff;
  font-family: brandon-text, Helvetica Neue, Arial, sans-serif;
  font-size: 18px;
  font-weight: 700;
@@ -412,8 +413,15 @@ body .gform_wrapper .gform_footer .gform_button {
  border-radius: 50px;
  padding: 15px;
  width: 100%;
+ border: none;
  @media all and (min-width: 830px) {
   font-size: 20px;
   padding: 18px;
  }
+ &:active,
+ &:focus,
+ &:hover {
+  box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .25);
+}
+
 }
