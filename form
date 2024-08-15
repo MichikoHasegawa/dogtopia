@@ -76,7 +76,6 @@ body .gform_wrapper .gform_body .top_label a {
  text-align: left;
  color: #5b6770;
  max-width: 250px;
-}
  @media all and (min-width: 830px) {
   font-size: 43px;
   max-width: 450px;
