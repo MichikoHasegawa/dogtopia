@@ -507,11 +507,12 @@ body .gform_wrapper .gform_footer .gform_button {
  padding: 15px;
  width: 250px;
  border: none;
- margin-top: 40px;
+ margin-top: 15px;
  @media all and (min-width: 830px) {
   font-size: 20px;
   padding: 18px;
   width: 450px;
+ margin-bottom: 20px;
  }
 }
 
