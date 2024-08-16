@@ -108,6 +108,10 @@ body .gform_wrapper .gform_body .gform_fields .gfield {
  flex-direction: column;
  align-items: center;
  position: relative;
+ margin-bottom: 25px;
+ @media all and (min-width: 830px) {
+ margin-bottom: 30px;
+ }
 }
 
 
