@@ -1,6 +1,8 @@
 
 body .gform_wrapper {
- 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 
@@ -102,7 +104,9 @@ body .gform_wrapper .gform_body .gform_fields {
 
 
 body .gform_wrapper .gform_body .gform_fields .gfield {
-
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 
