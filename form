@@ -74,13 +74,26 @@ body .gform_wrapper .gform_body .top_label a {
  line-height: normal;
  letter-spacing: -0.16px;
  text-align: left;
- color: #5b6770;
+ color: #00acc6;
+ text-decoration: none;
  max-width: 250px;
  @media all and (min-width: 830px) {
   font-size: 16px;
   max-width: 450px;
   margin: unset;
  }
+}
+
+body .gform_wrapper .gform_body .top_label a:hover {
+ text-decoration: underline;
+}
+
+body .gform_wrapper .gform_body .top_label a:focus {
+ text-decoration: underline;
+}
+
+body .gform_wrapper .gform_body .top_label a:active {
+ text-decoration: underline;
 }
 
 body .gform_wrapper .gform_body .gform_fields {
