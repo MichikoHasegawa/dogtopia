@@ -66,7 +66,7 @@ body .gform_wrapper .gform_body .top_label p {
 }
 
 body .gform_wrapper .gform_body .top_label a {
- font-family: BrandonText;
+ font-family: brandon-text, Helvetica Neue, Arial, sans-serif !important;
  font-size: 16px;
  font-weight: normal;
  font-stretch: normal;
