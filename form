@@ -107,6 +107,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield {
  display: flex;
  flex-direction: column;
  align-items: center;
+ position: relative;
 }
 
 
@@ -132,8 +133,9 @@ body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
  letter-spacing: normal;
  text-align: left;
  padding: 0 5px;
- position: sticky;
- margin-left: 10px;
+ position: absolute;
+ left: 10px;
+ top: -20px;
 }
 
 
