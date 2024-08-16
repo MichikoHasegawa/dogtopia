@@ -79,10 +79,12 @@ body .gform_wrapper .gform_body .top_label a {
  color: #00acc6;
  text-decoration: none;
  max-width: 250px;
+ margin-bottom: 20px;
  @media all and (min-width: 830px) {
   font-size: 16px;
   max-width: 450px;
   margin: unset;
+  margin-bottom: 20px;
  }
 }
 
